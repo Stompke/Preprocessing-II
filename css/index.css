@@ -256,3 +256,18 @@ header .navigation-container nav a {
   width: 30%;
   margin-bottom: 30px;
 }
+.home .content-pick .destination .btn {
+  color: #FFFFFF;
+  background: #17A2B8;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.6rem;
+  text-decoration: none;
+  display: inline-block;
+}
+.home .content-pick .destination .btn:hover {
+  cursor: pointer;
+  background: pink;
+}
