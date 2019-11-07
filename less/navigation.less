@@ -11,6 +11,17 @@ header {
         width: 100%;
         margin: 0 auto;
 
+        @media @mobile {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .logo {
+            @media @mobile{
+                margin-bottom: 10px;
+            }
+        }
+
         nav {
             display: flex;
             justify-content: flex-end;

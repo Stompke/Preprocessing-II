@@ -179,6 +179,17 @@ header .navigation-container {
   width: 100%;
   margin: 0 auto;
 }
+@media (max-width: 500px) {
+  header .navigation-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 500px) {
+  header .navigation-container .logo {
+    margin-bottom: 10px;
+  }
+}
 header .navigation-container nav {
   display: flex;
   justify-content: flex-end;
