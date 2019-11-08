@@ -201,15 +201,39 @@ header .navigation-container {
     align-items: center;
   }
 }
+header .navigation-container .logo {
+  animation: myfirst 1s ease-in 0s 1 alternate;
+  animation-fill-mode: both;
+  position: relative;
+}
+@keyframes myfirst {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100px;
+  }
+}
 @media (max-width: 500px) {
   header .navigation-container .logo {
     margin-bottom: 10px;
   }
 }
 header .navigation-container nav {
+  animation: myfirst 1s ease-in 0.5s 1 alternate;
+  animation-fill-mode: both;
+  position: relative;
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+@keyframes myfirst {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100px;
+  }
 }
 header .navigation-container nav a {
   color: black;
@@ -230,6 +254,17 @@ header .navigation-container nav a {
 }
 .home .intro {
   border-bottom: 2px dashed #C0C0C0;
+  animation: myfirst 1s ease-in 1s 1 alternate;
+  animation-fill-mode: both;
+  position: relative;
+}
+@keyframes myfirst {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100px;
+  }
 }
 .home .intro H1 {
   padding-bottom: 10px;
@@ -242,6 +277,17 @@ header .navigation-container nav a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  animation: myfirst 3s ease-in 1.5s 1 alternate;
+  animation-fill-mode: both;
+  position: relative;
+}
+@keyframes myfirst {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100px;
+  }
 }
 .home .content-section .text-content {
   width: 48%;
@@ -296,6 +342,17 @@ header .navigation-container nav a {
 .home .content-destination {
   width: 75%;
   margin: 0 auto 30px;
+  animation: myfirst 4s ease-in 3s 1 alternate;
+  animation-fill-mode: both;
+  position: relative;
+}
+@keyframes myfirst {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100px;
+  }
 }
 @media (max-width: 500px) {
   .home .content-destination {
@@ -310,6 +367,45 @@ header .navigation-container nav a {
   border-top: 2px dashed #C0C0C0;
   display: flex;
   justify-content: space-between;
+}
+.home .content-pick :nth-child(1) {
+  animation: myfirst 1s ease-in 5s 1 alternate;
+  animation-fill-mode: both;
+  position: relative;
+}
+@keyframes myfirst {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100px;
+  }
+}
+.home .content-pick :nth-child(2) {
+  animation: myfirst 1s ease-in 5.5s 1 alternate;
+  animation-fill-mode: both;
+  position: relative;
+}
+@keyframes myfirst {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100px;
+  }
+}
+.home .content-pick :nth-child(3) {
+  animation: myfirst 1s ease-in 6s 1 alternate;
+  animation-fill-mode: both;
+  position: relative;
+}
+@keyframes myfirst {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100px;
+  }
 }
 @media (max-width: 500px) {
   .home .content-pick {

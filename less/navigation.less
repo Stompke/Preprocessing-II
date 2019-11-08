@@ -17,12 +17,17 @@ header {
         }
 
         .logo {
+            .animations-mixin(1s, 0s);
+
             @media @mobile{
                 margin-bottom: 10px;
             }
         }
 
         nav {
+            // opacity: 0%;
+            .animations-mixin(1s, .5s);
+
             display: flex;
             justify-content: flex-end;
             align-items: center;

@@ -1,6 +1,6 @@
 // Mixins in here
 
-.default-button (@font-color, @background-color){
+.default-button(@font-color, @background-color){
     color: @font-color;
     background: @background-color;
     text-align: center;
@@ -14,5 +14,15 @@
     &:hover {
         cursor: pointer;
         background: pink;
+    }
+}
+
+.animations-mixin(@speed, @delay) {
+    animation: myfirst @speed ease-in @delay 1 alternate;
+    animation-fill-mode: both;
+    position: relative;
+    @keyframes myfirst {
+        0% {opacity: 0%;}
+        100% {opacity: 100px;}
     }
 }
